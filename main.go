@@ -9,7 +9,7 @@ import (
 	"github.com/sfbrigade/sfsbook/setup"
 )
 
-var port = flag.String("port", ":10443", "Set a port to listen on")
+var port = flag.String("port", ":"+os.Getenv("PORT"), "Set a port to listen on")
 
 func main() {
 	flag.Parse()
