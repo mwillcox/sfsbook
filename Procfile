@@ -1,1 +1,1 @@
-web: go build && ./sfsbook -init_passwords
+web: ./sfsbook -init_passwords
