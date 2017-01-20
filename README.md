@@ -37,4 +37,6 @@ and you should end up with a server called `sfsbook` ready to run at the top lev
 
 If you are interested in helping with development, reach out ot Rob (@rjkroege) on the Brigade Slack.
   
+## Deployment
 
+If deploying to heroku, set GO_SETUP_GOPATH_IN_IMAGE and GO_INSTALL_TOOLS_IN_IMAGE to true.
